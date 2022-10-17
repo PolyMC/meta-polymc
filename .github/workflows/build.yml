@@ -15,22 +15,11 @@ jobs:
       - name: Move directory
         run: |
           to_move=$(echo *)
-          mkdir -p _site/v1
-          mv $to_move _site/v1
-          cp .github/CNAME _site/CNAME
+          mkdir -p _site/
+          mv $to_move _site/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Trigger ManyMC
-        env:
-          MANYMC_TOKEN: ${{ secrets.MANYMC_TOKEN }}
-        run: |
-          curl -X POST \
-              -H "Accept: application/vnd.github.v3+json" \
-              -H "Authorization: token $MANYMC_TOKEN" \
-              https://api.github.com/repos/MinecraftMachina/meta-multimc-arm64/dispatches \
-              -d '{"event_type":"sync"}'
