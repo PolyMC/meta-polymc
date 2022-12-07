@@ -94,12 +94,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "a562f3bbe97501089e3fbe3b43d95ff69c60c723",
-                    "size": 118007,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.15.28/authlib-3.15.28.jar"
+                    "sha1": "efcca7a2fd33a399287834787f3a899086752b14",
+                    "size": 117060,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.16.29/authlib-3.16.29.jar"
                 }
             },
-            "name": "com.mojang:authlib:3.15.28"
+            "name": "com.mojang:authlib:3.16.29"
         },
         {
             "downloads": {
@@ -541,24 +541,24 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "15308e6b590de13da126a7347eb8b5040503099e",
-                "size": 22697552,
-                "url": "https://piston-data.mojang.com/v1/objects/15308e6b590de13da126a7347eb8b5040503099e/client.jar"
+                "sha1": "977727ec9ab8b4631e5c12839f064092f17663f8",
+                "size": 22704188,
+                "url": "https://piston-data.mojang.com/v1/objects/977727ec9ab8b4631e5c12839f064092f17663f8/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.19.3-pre2:client"
+        "name": "com.mojang:minecraft:1.19.3:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2022-11-23T16:12:25+00:00",
+    "releaseTime": "2022-12-07T08:17:18+00:00",
     "requires": [
         {
             "suggests": "3.3.1",
             "uid": "org.lwjgl3"
         }
     ],
-    "type": "snapshot",
+    "type": "release",
     "uid": "net.minecraft",
-    "version": "1.19.3-pre2"
+    "version": "1.19.3"
 }
