@@ -4,11 +4,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "1",
-        "sha1": "56ac2f1d71824b2d65f4ca18aa41150543d75b38",
-        "size": 390747,
-        "totalSize": 550164356,
-        "url": "https://piston-meta.mojang.com/v1/packages/56ac2f1d71824b2d65f4ca18aa41150543d75b38/1.json"
+        "id": "2",
+        "sha1": "25794b9a50ff97d586d810379a32f1eabe0417a4",
+        "size": 390746,
+        "totalSize": 549547265,
+        "url": "https://piston-meta.mojang.com/v1/packages/25794b9a50ff97d586d810379a32f1eabe0417a4/2.json"
     },
     "compatibleJavaMajors": [
         17,
@@ -54,12 +54,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "02cc2131b98ebfb04e2b2c7dfb84431f4045096b",
-                    "size": 265030,
-                    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar"
+                    "sha1": "dd9b193aef96e973d5a11ab13cd17430c2e4306b",
+                    "size": 286235,
+                    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10/gson-2.10.jar"
                 }
             },
-            "name": "com.google.code.gson:gson:2.9.1"
+            "name": "com.google.code.gson:gson:2.10"
         },
         {
             "downloads": {
@@ -94,12 +94,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "88c5e6091e52fd76e2ee73420957a4cc74deab8d",
-                    "size": 117839,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.13.56/authlib-3.13.56.jar"
+                    "sha1": "bb15804fede65585ee5a7cfc6d66fe6f4441df97",
+                    "size": 117097,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.17.30/authlib-3.17.30.jar"
                 }
             },
-            "name": "com.mojang:authlib:3.13.56"
+            "name": "com.mojang:authlib:3.17.30"
         },
         {
             "downloads": {
@@ -130,16 +130,6 @@
                 }
             },
             "name": "com.mojang:datafixerupper:5.0.28"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "bfa589b0bd71588fa7e594640114b0cda0cff5f6",
-                    "size": 5884,
-                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/2.0.25/javabridge-2.0.25.jar"
-                }
-            },
-            "name": "com.mojang:javabridge:2.0.25"
         },
         {
             "downloads": {
@@ -541,17 +531,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "623c2de1a7f8477e9b7ac8b18c846420b9413351",
-                "size": 22599513,
-                "url": "https://piston-data.mojang.com/v1/objects/623c2de1a7f8477e9b7ac8b18c846420b9413351/client.jar"
+                "sha1": "824248d1bfd3ab53c6bd0b6568a4ad86d772bd04",
+                "size": 23162877,
+                "url": "https://piston-data.mojang.com/v1/objects/824248d1bfd3ab53c6bd0b6568a4ad86d772bd04/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:22w44a:client"
+        "name": "com.mojang:minecraft:23w06a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2022-11-02T13:15:43+00:00",
+    "releaseTime": "2023-02-08T15:00:04+00:00",
     "requires": [
         {
             "suggests": "3.3.1",
@@ -560,5 +550,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "22w44a"
+    "version": "23w06a"
 }
