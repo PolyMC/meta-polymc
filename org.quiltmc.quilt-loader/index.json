@@ -4,6 +4,18 @@
     "uid": "org.quiltmc.quilt-loader",
     "versions": [
         {
+            "recommended": false,
+            "releaseTime": "2023-05-09T15:18:33+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "34bd298eb6ea52f39af54017e717f5e7d3d027afd337176c2630a4fd28eb91df",
+            "type": "release",
+            "version": "0.18.9"
+        },
+        {
             "recommended": true,
             "releaseTime": "2023-05-09T15:09:22+00:00",
             "requires": [
@@ -26,6 +38,18 @@
             "sha256": "1cbd7e3b44e154f8e374dd078e136703594a6f8310b499ff9da9eb7ac0cfc6d1",
             "type": "release",
             "version": "0.18.5"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2023-05-08T21:00:40+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "b0867976dcf7f94bc6c40cd3ef6ce4f4c2642dada978ce87bcf5947474ccaf71",
+            "type": "release",
+            "version": "0.17.4"
         },
         {
             "recommended": false,
@@ -842,18 +866,6 @@
             "sha256": "b01ec0324c35dda0df01f4bb33aa3c7fca3939c6f2c70a3d4454fc4fa04927e5",
             "type": "release",
             "version": "0.19.0-beta.12"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2023-05-08T15:16:39+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "32a3327fca0fdbe99fd67d2342324669a1a062e9d179797956869d7edfb48e71",
-            "type": "release",
-            "version": "0.18.9"
         },
         {
             "recommended": false,
@@ -1898,18 +1910,6 @@
             "sha256": "f619beffd2bed6bfc6678671559e14074804e9eb0c506e7305503ea283220974",
             "type": "release",
             "version": "0.17.7"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2023-05-07T15:51:02+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "3475ad88906f4b2a308d347515b6c32b310a0aa1372c75167e4041deb53da7ea",
-            "type": "release",
-            "version": "0.17.4"
         }
     ]
 }
