@@ -4,6 +4,30 @@
     "uid": "org.quiltmc.quilt-loader",
     "versions": [
         {
+            "recommended": true,
+            "releaseTime": "2023-05-12T15:15:10+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "15fe6594197c5fb78db3348b8511c54eee8675fe1f690464285526c818ab9b03",
+            "type": "release",
+            "version": "0.18.10"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2023-05-12T14:53:37+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "f83b04b8f99e7492dae4f0d5ae4d479893c842f23adb8f08a7d6a806db1341cd",
+            "type": "release",
+            "version": "0.18.5"
+        },
+        {
             "recommended": false,
             "releaseTime": "2023-05-12T09:00:33+00:00",
             "requires": [
@@ -1840,18 +1864,6 @@
             "version": "0.19.0-beta.13"
         },
         {
-            "recommended": true,
-            "releaseTime": "2023-05-11T15:12:27+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "f0664d09e638ae9ffb7442669426a458658409e00cd17cf02e3a9854a2770d4b",
-            "type": "release",
-            "version": "0.18.10"
-        },
-        {
             "recommended": false,
             "releaseTime": "2023-05-11T15:00:42+00:00",
             "requires": [
@@ -1862,18 +1874,6 @@
             "sha256": "53413a4b0eaa288985b19a26a946a7c1d17e75c9b78abd7a086c7b4f9137005f",
             "type": "release",
             "version": "0.18.1-beta.25"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2023-05-11T14:53:00+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "13da5bd5dced4460dd4240a31992f1c164c6a60b080ee68bf8518824fdeeda7c",
-            "type": "release",
-            "version": "0.18.5"
         },
         {
             "recommended": false,
