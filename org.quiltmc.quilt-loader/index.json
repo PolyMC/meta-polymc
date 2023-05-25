@@ -29,6 +29,30 @@
         },
         {
             "recommended": false,
+            "releaseTime": "2023-05-25T21:00:22+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "27d69317eb6698a6aad37bb8bb3f525c5412d25ab5c3c535663f74dde030e97b",
+            "type": "release",
+            "version": "0.18.4-pre.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2023-05-25T21:00:17+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "7d2053f4cf12d89a4489b38252815a48532ef009e07bea86b55a3d03ff104976",
+            "type": "release",
+            "version": "0.19.0-beta.7"
+        },
+        {
+            "recommended": false,
             "releaseTime": "2023-05-25T19:00:32+00:00",
             "requires": [
                 {
@@ -41,6 +65,30 @@
         },
         {
             "recommended": false,
+            "releaseTime": "2023-05-25T18:52:26+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "7cf148dedc58b93e2b99a8d9718ff9e8747fca53d0c5802bc835b63693e6055f",
+            "type": "release",
+            "version": "0.17.7"
+        },
+        {
+            "recommended": true,
+            "releaseTime": "2023-05-25T17:26:31+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "314c10257f9c1f2dcea6a74547380c72887caae85aafae85fd2881259dc96b40",
+            "type": "release",
+            "version": "0.18.10"
+        },
+        {
+            "recommended": false,
             "releaseTime": "2023-05-25T17:00:20+00:00",
             "requires": [
                 {
@@ -50,6 +98,18 @@
             "sha256": "ac5fdc82852a67f2fef772fe23c0304de45f5e6ff2aa280b64cd9cdbea0cabd3",
             "type": "release",
             "version": "0.16.0-beta.16"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2023-05-25T15:37:04+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "bfb69e0582f25264b533bdfb55fbb9fafc0ebdf56a573507ddf944c7685abc3b",
+            "type": "release",
+            "version": "0.18.6"
         },
         {
             "recommended": false,
@@ -989,6 +1049,18 @@
         },
         {
             "recommended": false,
+            "releaseTime": "2023-05-25T04:00:44+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "fa9bd149abdc00ea72e82df616956369a75feb6202502d7722e5b8bf336b3855",
+            "type": "release",
+            "version": "0.18.3"
+        },
+        {
+            "recommended": false,
             "releaseTime": "2023-05-25T04:00:43+00:00",
             "requires": [
                 {
@@ -1451,18 +1523,6 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "sha256": "f8e3ed20dab78ad11ef53fcd81ade16956bb59efffb275834db4f839375cbe78",
-            "type": "release",
-            "version": "0.19.0-beta.7"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2023-05-24T23:00:16+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
             "sha256": "340c70374c14a4bf2456a99c88db78fe852fbaba230834d82f8870ab60b921d8",
             "type": "release",
             "version": "0.19.0-beta.10"
@@ -1850,66 +1910,6 @@
             "sha256": "6013607a629ee0d100eb13adb8728ac9ddd4962bb3f5a42589e1c900a7f2f09f",
             "type": "release",
             "version": "0.17.8"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2023-05-24T18:00:32+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "614ce2a9dff73ca0ccf1e4630c80f28bc98cc65a0e51e2b55ee6d83c3c62a0ae",
-            "type": "release",
-            "version": "0.18.4-pre.1"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2023-05-24T18:00:26+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "8e70d1c75495f621d0396441142221deda4aaaeef677dde8c54436ebb55aae7c",
-            "type": "release",
-            "version": "0.17.7"
-        },
-        {
-            "recommended": true,
-            "releaseTime": "2023-05-24T17:16:17+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "bfa9d02aa9edd294e31ed4d781a5ff56a991df845a8428ffcf1300298a7bd05f",
-            "type": "release",
-            "version": "0.18.10"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2023-05-24T13:51:51+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "32872b156f328b1e2c82e8620df5172cba1950ec3112b8b54e8d653f6556b2cc",
-            "type": "release",
-            "version": "0.18.6"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2023-05-24T01:00:28+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "9284c608385305a3b7b8fc266fe6d063b95bdb9bea47688e6baf6ce62c6e7c98",
-            "type": "release",
-            "version": "0.18.3"
         }
     ]
 }
