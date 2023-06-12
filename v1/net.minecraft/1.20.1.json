@@ -94,12 +94,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "3381044d57a291a541ca0836b0119abe063acb93",
-                    "size": 121603,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/4.0.42/authlib-4.0.42.jar"
+                    "sha1": "2ff9d747a77570a07a60d32ac77eb6162ad2a2d9",
+                    "size": 121766,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/4.0.43/authlib-4.0.43.jar"
                 }
             },
-            "name": "com.mojang:authlib:4.0.42"
+            "name": "com.mojang:authlib:4.0.43"
         },
         {
             "downloads": {
@@ -442,24 +442,24 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "9af70898f3587cb218b193dfc7271a429f517ec9",
-                "size": 23005360,
-                "url": "https://piston-data.mojang.com/v1/objects/9af70898f3587cb218b193dfc7271a429f517ec9/client.jar"
+                "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838",
+                "size": 23028853,
+                "url": "https://piston-data.mojang.com/v1/objects/0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.20-pre3:client"
+        "name": "com.mojang:minecraft:1.20.1:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2023-05-19T11:39:46+00:00",
+    "releaseTime": "2023-06-12T13:25:51+00:00",
     "requires": [
         {
             "suggests": "3.3.1",
             "uid": "org.lwjgl3"
         }
     ],
-    "type": "snapshot",
+    "type": "release",
     "uid": "net.minecraft",
-    "version": "1.20-pre3"
+    "version": "1.20.1"
 }
