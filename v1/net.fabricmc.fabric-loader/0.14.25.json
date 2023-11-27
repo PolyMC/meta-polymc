@@ -10,7 +10,7 @@
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "net.fabricmc:tiny-remapper:0.8.6",
+            "name": "net.fabricmc:tiny-remapper:0.8.2",
             "url": "https://maven.fabricmc.net/"
         },
         {
@@ -18,48 +18,40 @@
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.quiltmc:quilt-json5:1.0.2",
-            "url": "https://maven.quiltmc.org/repository/release/"
-        },
-        {
-            "name": "org.ow2.asm:asm:9.5",
+            "name": "org.ow2.asm:asm:9.6",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-analysis:9.5",
+            "name": "org.ow2.asm:asm-analysis:9.6",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-commons:9.5",
+            "name": "org.ow2.asm:asm-commons:9.6",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-tree:9.5",
+            "name": "org.ow2.asm:asm-tree:9.6",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.ow2.asm:asm-util:9.5",
+            "name": "org.ow2.asm:asm-util:9.6",
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.quiltmc:quilt-config:1.0.0-beta.6",
-            "url": "https://maven.quiltmc.org/repository/release/"
-        },
-        {
-            "name": "org.quiltmc:quilt-loader:0.19.1-beta.2",
-            "url": "https://maven.quiltmc.org/repository/release"
+            "name": "net.fabricmc:fabric-loader:0.14.25",
+            "url": "https://maven.fabricmc.net"
         }
     ],
-    "mainClass": "org.quiltmc.loader.impl.launch.knot.KnotClient",
-    "name": "Quilt Loader",
+    "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+    "name": "Fabric Loader",
     "order": 10,
-    "releaseTime": "2023-11-27T01:00:36+00:00",
+    "releaseTime": "2023-11-27T14:06:26+00:00",
     "requires": [
         {
             "uid": "net.fabricmc.intermediary"
         }
     ],
     "type": "release",
-    "uid": "org.quiltmc.quilt-loader",
-    "version": "0.19.1-beta.2"
+    "uid": "net.fabricmc.fabric-loader",
+    "version": "0.14.25"
 }
