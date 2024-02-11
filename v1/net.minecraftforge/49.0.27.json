@@ -14,24 +14,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "net/minecraftforge/forge/1.20.4-49.0.27/forge-1.20.4-49.0.27-launcher.jar",
+                    "path": "net/minecraftforge/forge/1.20.4-49.0.27/forge-1.20.4-49.0.27-universal.jar",
                     "sha1": "204a5a547f095686a5bd099440bc715717ca7319",
                     "size": 2432704,
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.0.27/forge-1.20.4-49.0.27-launcher.jar"
+                    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.0.27/forge-1.20.4-49.0.27-universal.jar"
                 }
             },
-            "name": "net.minecraftforge:forge:1.20.4-49.0.27:launcher"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "net/minecraftforge/forge/1.20.4-49.0.27/forge-1.20.4-49.0.27-launcher.jar",
-                    "sha1": "1f087663004628fdaef326081a4e3f990a98cf6e",
-                    "size": 26342686,
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.0.27/forge-1.20.4-49.0.27-launcher.jar"
-                }
-            },
-            "name": "net.minecraftforge:forge:1.20.4-49.0.27:launcher"
+            "name": "net.minecraftforge:forge:1.20.4-49.0.27:universal"
         },
         {
             "downloads": {
@@ -663,7 +652,7 @@
             "name": "trove:trove:1.0.2"
         }
     ],
-    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client",
+    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 49.0.27 --fml.mcVersion 1.20.4",
     "name": "Forge",
     "order": 5,
     "releaseTime": "2024-02-02T20:55:00+00:00",
