@@ -42,18 +42,26 @@
             "url": "https://maven.fabricmc.net/"
         },
         {
-            "name": "org.quiltmc:quilt-config:1.1.0-beta.3",
+            "name": "org.quiltmc:quilt-config:1.2.0",
             "url": "https://maven.quiltmc.org/repository/release/"
         },
         {
-            "name": "org.quiltmc:quilt-loader:0.22.0",
+            "name": "org.quiltmc.quilt-config.serializers:json5:1.2.0",
+            "url": "https://maven.quiltmc.org/repository/release/"
+        },
+        {
+            "name": "org.quiltmc.quilt-config.serializers:toml:1.2.0",
+            "url": "https://maven.quiltmc.org/repository/release/"
+        },
+        {
+            "name": "org.quiltmc:quilt-loader:0.24.0-beta.2",
             "url": "https://maven.quiltmc.org/repository/release"
         }
     ],
     "mainClass": "org.quiltmc.loader.impl.launch.knot.KnotClient",
     "name": "Quilt Loader",
     "order": 10,
-    "releaseTime": "2024-02-13T01:23:51+00:00",
+    "releaseTime": "2024-02-14T04:55:03+00:00",
     "requires": [
         {
             "uid": "net.fabricmc.intermediary"
@@ -61,5 +69,5 @@
     ],
     "type": "release",
     "uid": "org.quiltmc.quilt-loader",
-    "version": "0.22.0"
+    "version": "0.24.0-beta.2"
 }
