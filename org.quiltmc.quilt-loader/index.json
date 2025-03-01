@@ -4,6 +4,18 @@
     "uid": "org.quiltmc.quilt-loader",
     "versions": [
         {
+            "recommended": true,
+            "releaseTime": "2025-03-01T08:17:52+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "64db0794e0a0a78e5a0476d32afa9506f3db7ab582ee771c26451bd62d8f4030",
+            "type": "release",
+            "version": "0.27.1"
+        },
+        {
             "recommended": false,
             "releaseTime": "2025-03-01T08:03:35+00:00",
             "requires": [
@@ -2786,18 +2798,6 @@
             "sha256": "0741cd88387ddafb0180220ffa665390bdcd9294a1bd704ad9b3b7514feac112",
             "type": "release",
             "version": "0.20.0-beta.4"
-        },
-        {
-            "recommended": true,
-            "releaseTime": "2025-02-28T08:08:50+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "00485a76ed3246c1fb152764126e987deae0bbe75bc66ba412f2baba9251ff79",
-            "type": "release",
-            "version": "0.27.1"
         },
         {
             "recommended": false,
