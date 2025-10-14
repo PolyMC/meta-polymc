@@ -4,11 +4,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "27",
-        "sha1": "1f82a630f245cb9f613a4dd74a5f2e07fa0e10e4",
-        "size": 507362,
-        "totalSize": 434575655,
-        "url": "https://piston-meta.mojang.com/v1/packages/1f82a630f245cb9f613a4dd74a5f2e07fa0e10e4/27.json"
+        "id": "28",
+        "sha1": "29fe80e4ed8fd0e497df7f2dc57bf89dff2942b4",
+        "size": 515469,
+        "totalSize": 436020533,
+        "url": "https://piston-meta.mojang.com/v1/packages/29fe80e4ed8fd0e497df7f2dc57bf89dff2942b4/28.json"
     },
     "compatibleJavaMajors": [
         21
@@ -142,12 +142,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "4da2f9084d1461433f39c3f72e5abbabf01d9c8f",
-                    "size": 116130,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/6.0.59/authlib-6.0.59.jar"
+                    "sha1": "efee1e6b54e863108576eb3b3ae71144626aaefc",
+                    "size": 116084,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.61/authlib-7.0.61.jar"
                 }
             },
-            "name": "com.mojang:authlib:6.0.59"
+            "name": "com.mojang:authlib:7.0.61"
         },
         {
             "downloads": {
@@ -370,6 +370,16 @@
                 }
             },
             "name": "io.netty:netty-buffer:4.1.118.Final"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "eda08a71294afe78c779b85fd696bc13491507a8",
+                    "size": 674362,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar"
+                }
+            },
+            "name": "io.netty:netty-codec-http:4.1.118.Final"
         },
         {
             "downloads": {
@@ -662,17 +672,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "b651f5d4749fa3439a7766d1615472ec9c1f2a06",
-                "size": 30145039,
-                "url": "https://piston-data.mojang.com/v1/objects/b651f5d4749fa3439a7766d1615472ec9c1f2a06/client.jar"
+                "sha1": "69479469a0c1ed7cd80ea45ed6c36aa07fc36001",
+                "size": 30909155,
+                "url": "https://piston-data.mojang.com/v1/objects/69479469a0c1ed7cd80ea45ed6c36aa07fc36001/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:25w32a:client"
+        "name": "com.mojang:minecraft:25w42a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2025-08-05T12:21:45+00:00",
+    "releaseTime": "2025-10-14T12:48:10+00:00",
     "requires": [
         {
             "suggests": "3.3.3",
@@ -681,5 +691,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "25w32a"
+    "version": "25w42a"
 }
