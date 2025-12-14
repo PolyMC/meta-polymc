@@ -4,6 +4,30 @@
     "uid": "org.quiltmc.quilt-loader",
     "versions": [
         {
+            "recommended": true,
+            "releaseTime": "2025-12-14T06:57:21+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "8c1899448595f43b8b268d387a4e7a22d0aae7b43c9183e3649c6f957d035fa3",
+            "type": "release",
+            "version": "0.29.2"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-14T06:17:44+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "aac75b5d800c532d9b34ad6792334595ef6a72a031a10c0617b3eb8e89ff2821",
+            "type": "release",
+            "version": "0.18.4-pre.3"
+        },
+        {
             "recommended": false,
             "releaseTime": "2025-12-14T05:02:35+00:00",
             "requires": [
@@ -3446,30 +3470,6 @@
             "sha256": "e35b27ad1a3c8f9efa1601d001e767e3ab615e90479d57d6ac4cad96ba134045",
             "type": "release",
             "version": "0.19.3-beta.1"
-        },
-        {
-            "recommended": true,
-            "releaseTime": "2025-12-13T06:57:17+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "7684866948bae70199cb36e52cb7cd10e719f75ba7c2342d195c898de034644e",
-            "type": "release",
-            "version": "0.29.2"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2025-12-13T06:01:47+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "1b52691070b32363dc430b876eb6408f69d7f64843b2f86cef6184ab6b75d16a",
-            "type": "release",
-            "version": "0.18.4-pre.3"
         },
         {
             "recommended": false,
