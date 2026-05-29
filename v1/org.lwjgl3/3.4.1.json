@@ -1481,12 +1481,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "6105690714874b995aa7812e4f7732a21109276c",
-                    "size": 1157957,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.4.1/lwjgl-3.4.1.jar"
+                    "sha1": "129e06a04f93992cb2a45172435b21fc4b60dd7d",
+                    "size": 1062128,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.4.1/lwjgl-3.4.1-unsafe.jar"
                 }
             },
-            "name": "org.lwjgl:lwjgl:3.4.1"
+            "name": "org.lwjgl:lwjgl:3.4.1:unsafe"
         },
         {
             "downloads": {
@@ -2139,24 +2139,6 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "c28d721b930590df368c9503fd84f06e4a3211f5",
-                    "size": 830092,
-                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-openal/lwjgl-openal-natives-freebsd.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-openal-natives-freebsd:3.4.1-lwjgl.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "freebsd"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
                     "sha1": "fdde3b33c1fb4c9329da9e741fa894266baef71f",
                     "size": 81739,
                     "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-opengl/lwjgl-opengl-natives-freebsd.jar"
@@ -2283,7 +2265,7 @@
     ],
     "name": "LWJGL 3",
     "order": -1,
-    "releaseTime": "2026-04-09T12:26:35+00:00",
+    "releaseTime": "2026-05-26T13:48:31+00:00",
     "type": "release",
     "uid": "org.lwjgl3",
     "version": "3.4.1",
