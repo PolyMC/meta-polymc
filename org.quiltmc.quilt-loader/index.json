@@ -5,6 +5,54 @@
     "versions": [
         {
             "recommended": false,
+            "releaseTime": "2026-11-16T02:00:38+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "284264c363c34070fe7783c529357aa1e1ef861c77e122885aab4cfcb5bf1dd4",
+            "type": "release",
+            "version": "0.17.0-beta.2"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-16T02:00:37+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "5c9821c06272ed10a2ebccae905479782a592728fc1c16ed0a54a4b7d2def243",
+            "type": "release",
+            "version": "0.20.0-beta.4"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-16T02:00:37+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "73aedf9416338c968c26a54a6f1fb028cd339430039a2823a802f697e54ecfca",
+            "type": "release",
+            "version": "0.20.0"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-16T02:00:36+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "64cf9bb5e20f3015ca0a982ae451c32786ede0f022d272def532efa3b65580f5",
+            "type": "release",
+            "version": "0.27.0-beta.1"
+        },
+        {
+            "recommended": false,
             "releaseTime": "2026-11-16T01:00:37+00:00",
             "requires": [
                 {
@@ -38,42 +86,6 @@
             "sha256": "ed81563578682abe1e0d6571f520cb2f9b346e173a7f0b455217dab31b1aa471",
             "type": "release",
             "version": "0.16.0-beta.8"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-16T00:00:39+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "265b4f07b0cb883af340f4bb7d31b834f4636b298897d30ebfc062f610c7fad9",
-            "type": "release",
-            "version": "0.19.0-beta.3"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-16T00:00:38+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "a0f8767c5b2467487052d98f810a9bfaa11603d5f6c4046cdb53ab9912ff8770",
-            "type": "release",
-            "version": "0.27.0-beta.1"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-16T00:00:38+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "f19fb90a8416a5c81ba80bd9b76539dbbb7ca58f22f4891041c9e58a6c84d874",
-            "type": "release",
-            "version": "0.19.0-beta.13"
         },
         {
             "recommended": false,
@@ -119,18 +131,6 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "sha256": "75a7bef2967e2f164becf34b3ea4d48293bcc09d9af87be5ef703dd9c639184b",
-            "type": "release",
-            "version": "0.30.1-beta.4"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-16T00:00:37+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
             "sha256": "72d29394634d1d1985c563968a56a8aea517f672096cf410a4ae869476eec39d",
             "type": "release",
             "version": "0.31.0-beta.6"
@@ -167,18 +167,6 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "sha256": "3a5fb5f6be81405295459c5f89169298e20567b36fcbf6cac8423aa5784ce41b",
-            "type": "release",
-            "version": "0.16.1"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T23:00:39+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
             "sha256": "835e4184a154aaa2ce639b007bc5a4579ce55a443e09af3c192e83a06a04fef6",
             "type": "release",
             "version": "0.18.1-beta.22"
@@ -203,6 +191,18 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
+            "sha256": "8a274f53eeedba26d9283475ce6aa947e1043fbb56ba88a0e62e7c06cb9e8687",
+            "type": "release",
+            "version": "0.19.0-beta.3"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T23:00:38+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
             "sha256": "81c297f5dabdacab5c5a6193f46f7247b1be9edd03650cc15abeb7ad0d3ad0b0",
             "type": "release",
             "version": "0.26.3"
@@ -218,18 +218,6 @@
             "sha256": "8afe91ec495048f8624a55b3502c8294634512c6552d72f17d74185397593375",
             "type": "release",
             "version": "0.19.2-beta.1"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T23:00:38+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "bca3eaa62dd984db3da18330e0c870f57b6d58bc3a47e42f5c18bec637288a13",
-            "type": "release",
-            "version": "0.20.0"
         },
         {
             "recommended": false,
@@ -278,6 +266,18 @@
             "sha256": "f274f25a762066ccf5fec3bcedffa74c01437865f506075aa943a1b8a85c5822",
             "type": "release",
             "version": "0.18.1-beta.7"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T21:00:37+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "7357c674ecce8a080b3af6dd3958e8465c664145cfdcfc3cae77c620ea332ddc",
+            "type": "release",
+            "version": "0.16.1"
         },
         {
             "recommended": false,
@@ -362,18 +362,6 @@
             "sha256": "41f510cb2999345185105dc728b98d7050aef5c7e8e7c52d9a0e71d5f80d2439",
             "type": "release",
             "version": "0.21.0-beta.2"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T21:00:36+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "c051ea58defb179f512f664ca7267f7f0c1b36609e313c2c03e3c57c7923334d",
-            "type": "release",
-            "version": "0.20.0-beta.4"
         },
         {
             "recommended": false,
@@ -659,6 +647,18 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
+            "sha256": "cc2e2b8b0c0e0fe2099e2bf09de8be4c0169d60fe337f11a77a70a146d7a1020",
+            "type": "release",
+            "version": "0.19.0-beta.13"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T18:00:36+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
             "sha256": "8a704b36b3775aa81c66b8922cff22ffd178c199665c849f23b95395c23f2128",
             "type": "release",
             "version": "0.19.0-beta.12"
@@ -866,6 +866,18 @@
             "sha256": "6cf2092f446d658fee137730adc6d88b1df7f971b5573e3548feb4636af35bc6",
             "type": "release",
             "version": "0.28.0-beta.8"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T17:00:35+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "5ccdd2cc9a29a944c6d11817fff9f35fb7c6f6856f1439c8468f9767c4c6750d",
+            "type": "release",
+            "version": "0.30.1-beta.4"
         },
         {
             "recommended": false,
@@ -1427,18 +1439,6 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "sha256": "9881fad3e65d320c2132667630e6176a190067d0f4514fa56f8ff9f796477dc2",
-            "type": "release",
-            "version": "0.17.0-beta.2"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T11:00:37+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
             "sha256": "9582bd3c2d99a3cdfd5155acec540fa81a0ffcac8683bdf5c8ee0d41945b5900",
             "type": "release",
             "version": "0.17.6"
@@ -1502,18 +1502,6 @@
             "sha256": "fe9948bc7340c7a591e64a491d938377fe581d0829b3f176663d512205ab4f49",
             "type": "release",
             "version": "0.19.1-beta.2"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T11:00:36+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "cdd8f0724aff83488f249bdb1bcb540fb5f9bebcb52b734b5194e9156ed7fc5d",
-            "type": "release",
-            "version": "0.18.1-beta.12"
         },
         {
             "recommended": false,
@@ -1802,6 +1790,18 @@
             "sha256": "d78a3c866e49c239f66d92dfaa561982f0a84633c191af3bd374365e28ce5df3",
             "type": "release",
             "version": "0.17.2-beta.3"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T09:00:37+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "779ee296f938a0a0c85440014453d6ddec7ab2894a3c60357514c53d681d5700",
+            "type": "release",
+            "version": "0.18.1-beta.12"
         },
         {
             "recommended": false,
@@ -2195,6 +2195,18 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
+            "sha256": "d9020429565a45fa81dfed6447c8e24c2b74189e357d380eb60735a90cce5de8",
+            "type": "release",
+            "version": "0.19.0-beta.8"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T08:00:37+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
             "sha256": "fd43e29dfd4161749d8749578627abe8c8d96a78a6bc67f2d3b117775ddc4de8",
             "type": "release",
             "version": "0.27.1"
@@ -2210,6 +2222,18 @@
             "sha256": "547573a1b9015cdf09fbd01ba834953ff6654cbbb9229c2e445ed32bda291407",
             "type": "release",
             "version": "0.24.0-beta.6"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T08:00:37+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "6f97da696298f2f30f7f4f5b588ad9c8f3bb622330e22fe662926014b256b588",
+            "type": "release",
+            "version": "0.20.0-beta.5"
         },
         {
             "recommended": false,
@@ -2246,6 +2270,18 @@
             "sha256": "5beff69d922df6e3549d0e22e8ccdc4456a952a25c0287cb39a0fc6bd426aad2",
             "type": "release",
             "version": "0.24.0-beta.4"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T08:00:37+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "c73365462129cd03ebab4dce10b7b6cc02f6c517ac270c87ca4c1180d5e4bb55",
+            "type": "release",
+            "version": "0.26.4-beta.5"
         },
         {
             "recommended": false,
@@ -2342,6 +2378,18 @@
             "sha256": "f0f3c83fec65098de1ffa3cd85ada322c13eca11608158cc7591b1e96a43ce2a",
             "type": "release",
             "version": "0.26.4-beta.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T07:00:36+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "sha256": "3fffc175ef9b01ed25f585c15b2300a6d511a65da4c956f7be74f1d9bb9e69a2",
+            "type": "release",
+            "version": "0.24.0-beta.8"
         },
         {
             "recommended": false,
@@ -2555,30 +2603,6 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "sha256": "04ed7a25ba6a4a75d189fd055283c08366a246e913135e591bd61bd4026bc4ab",
-            "type": "release",
-            "version": "0.19.0-beta.8"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T06:00:36+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "9ed5cdcb52366809387ddaeb62dcda274878f71a5596982d771023c78ce666a8",
-            "type": "release",
-            "version": "0.20.0-beta.5"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T06:00:36+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
             "sha256": "d8b00a7c267c0d8439655fb8b588999bc1add861fa6adaead5e1c49935e4ff2c",
             "type": "release",
             "version": "0.20.0-beta.15"
@@ -2606,18 +2630,6 @@
             "sha256": "cbf99a87f2d84798f4bbf3488fc24b47f04d5967cdfad5ac09657b4f259117f8",
             "type": "release",
             "version": "0.19.0-beta.9"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T06:00:36+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "15d94a3160e86c80cfabe60d6bd69d31dbba6e1fcf8f03680f15e1c0ff904322",
-            "type": "release",
-            "version": "0.24.0-beta.8"
         },
         {
             "recommended": false,
@@ -2858,18 +2870,6 @@
             "sha256": "890da0ed6fa67b6ac15633ba92b698a2dc2a2f39c0cc1fda11dd9faa9abd82dd",
             "type": "release",
             "version": "0.21.1"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T05:00:36+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "506f620beb41d5ece30440ede64a8d05674442217b52d782ac9d4b8b6d6e6a9e",
-            "type": "release",
-            "version": "0.18.1-beta.41"
         },
         {
             "recommended": false,
@@ -3359,6 +3359,18 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
+            "sha256": "975ecece11d482351e4cce4e8f81329f6719c32e5307609d4ceb8034b7a921ff",
+            "type": "release",
+            "version": "0.18.1-beta.41"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-11-15T04:00:37+00:00",
+            "requires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
             "sha256": "77be28153e8459450aa2fb108df86e216244e089779b75de008ce2db4f20e29f",
             "type": "release",
             "version": "0.18.1-beta.59"
@@ -3518,18 +3530,6 @@
             "sha256": "6d791bbc8dfdd22a6029f10ad8db75647b7f786a89633a77cf24510239abfd53",
             "type": "release",
             "version": "0.28.1"
-        },
-        {
-            "recommended": false,
-            "releaseTime": "2026-11-15T04:00:36+00:00",
-            "requires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "sha256": "1efe4b181100962527cfbf84df8dd704d848a5952ecbf5391985d643610d39d5",
-            "type": "release",
-            "version": "0.26.4-beta.5"
         },
         {
             "recommended": false,
